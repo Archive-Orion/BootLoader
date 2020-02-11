@@ -53,7 +53,7 @@ paint:
 	
 	jmp $
 	
-msgBack db '.' 0x17
+msgBack db '.', 0x17
 
 times 510-($-$$) db 0
 
